@@ -61,9 +61,9 @@ Ganti akun dan kata sandi tersebut sebelum deployment.
 
 ## Identitas Kelompok Bawaan
 
-- Nama Kelompok: Kelompok Tuntun Sholat
-- Program Studi: Manajemen Bisnis Syariah
-- Mata Kuliah: Pengembangan Aplikasi Web / Praktikum Pemrograman Web
+- Nama Kelompok: Pino Fandu Winata, Angelira Devani, Rifa Wulandari, Diana Maliha Muntaz
+- Program Studi: Sistem Informasi
+- Mata Kuliah: AIK 4
 - Dosen: Dedy Susanto, S.Pd.I., M.M.
 
 Nama anggota dan NIM pada halaman Tentang Kami masih berupa placeholder. Ubah data tersebut di `app/Http/Controllers/PageController.php` sebelum pengumpulan.
@@ -96,7 +96,7 @@ php artisan serve
 Pada Linux atau macOS, ganti perintah `copy` menjadi:
 
 ```bash
-cp .env.example .env
+copy .env.example .env
 ```
 
 Buka aplikasi di `http://127.0.0.1:8000`.
@@ -118,7 +118,7 @@ COLLATE utf8mb4_unicode_ci;
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=tuntun_sholat
+DB_DATABASE=laravel
 DB_USERNAME=root
 DB_PASSWORD=
 ```
@@ -283,18 +283,6 @@ php artisan migrate:fresh --seed
 
 Perintah tersebut menghapus seluruh tabel dan data lama.
 
-## Deployment
-
-URL online: `[ISI URL APLIKASI ONLINE]`
-
-Checklist produksi:
-
-```env
-APP_ENV=production
-APP_DEBUG=false
-APP_URL=https://domain-anda.com
-```
-
 Lalu jalankan:
 
 ```bash
@@ -312,11 +300,10 @@ Pastikan folder `storage` dan `bootstrap/cache` dapat ditulis oleh web server.
 
 | Nama | NIM | Peran |
 |---|---|---|
-| [Nama Anggota 1] | [NIM Anggota 1] | Project Manager |
-| [Nama Anggota 2] | [NIM Anggota 2] | UI/UX Designer |
-| [Nama Anggota 3] | [NIM Anggota 3] | Back-end Developer |
-| [Nama Anggota 4] | [NIM Anggota 4] | Front-end Developer |
-| [Nama Anggota 5] | [NIM Anggota 5] | Quality Assurance |
+| [Pino Fandu Winata] | [241230066] | Project Manager |
+| [Angelira Devani] | [241230054] | UI/UX Designer |
+| [Rifa Wulandari] | [241230058] | Back-end Developer |
+| [Diana Maliha Muntaz] | [241230056] | Front-end Developer |
 
 ## Sumber Konten
 
